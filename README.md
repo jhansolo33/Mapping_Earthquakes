@@ -1,13 +1,14 @@
 # Mapping_Earthquakes
 Overview
-In this module, we used the Leaflet.js Application Programming Interface (API) to populate a geographical map with GeoJSON earthquake data from a URL. Each earthquake was visually represented by a circle and color, where a higher magnitude has a larger diameter and is darker in color. In addition, each earthquake has a popup marker that, when clicked, shows the magnitude of the earthquake and the location of the earthquake.
+
+In this module, I used the Leaflet.js Application Programming Interface (API) to populate a geographical map with GeoJSON earthquake data from a URL. Each earthquake was visually represented by a circle and color, where a higher magnitude has a larger diameter and is darker in color. In addition, each earthquake has a popup marker that, when clicked, shows the magnitude of the earthquake and the location of the earthquake.
 
 Resources
-We used the Leaflet library to plot the data on a Mapbox map through an API request and created interactivity for the earthquake data. We added the USGS URL for earthquake data by navigating to the USGS Hazards Program, clicking the Earthquakes link to open the Real-time Data Feeds link and scrolled down to "GeoJSON Summary" Feed. There, we clicked the All Earthquakes link under the “Past 7 Days” heading
+I used the Leaflet library to plot the data on a Mapbox map through an API request and created interactivity for the earthquake data. We added the USGS URL for earthquake data by navigating to the USGS Hazards Program, clicking the Earthquakes link to open the Real-time Data Feeds link and scrolled down to "GeoJSON Summary" Feed. There, we clicked the All Earthquakes link under the “Past 7 Days” heading
 
 Data Source: majorAirports.json, torontoRoutes.json, torontoNeighborhoods.json, tectonic_plate_starter_logic.js, tectonic_plate_starter_logic.js, tectonic_plate_starter_logic.js and index.html
 
-Software: JS, D3, Leaflet, JavaScript, JSON, GeoJSON and IO (Web Server) ES6+, ECMAScript and Visual Studio Code 1.50.0
+Software: JS, D3, Leaflet, JavaScript, JSON, GeoJSON and IO (Web Server), ECMAScript and Visual Studio Code 1.50.0
 
 Objectives
 • Create a branch from the master branch on GitHub. • Add, commit, and push data to a GitHub branch. • Merge a branch with the master branch on GitHub. • Retrieve data from a GeoJSON file. • Make API requests to a server to host geographical maps. • Populate geographical maps with GeoJSON data using JavaScript and the Data-Driven Documents (D3) library. • Add multiple map layers to geographical maps using Leaflet control plugins to add user interface controls. • Use JavaScript ES6 functions to add GeoJSON data, features, and interactivity to maps. • Render maps on a local server.
